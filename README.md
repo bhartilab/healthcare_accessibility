@@ -1,6 +1,6 @@
 # healthcare_accessibility
 
-This code is associated with the analysis that aims to evaluate the accessibility of health care facilities in the Equateur province of DRC and simulate potential improvements to the health facility system.
+This code is associated with analyses that aim to evaluate the accessibility of health care facilities in the Equateur province of DRC and simulate potential improvements to the health facility system.
 
 ### Publicly Available Data
 ---
@@ -12,13 +12,16 @@ The data referenced throughout this code is publicly available for download.
 
 -Population Estimates: [Grid3](https://data.grid3.org/maps/a3db539c0fae4c05aed92ed67e11fe2b/explore)
 
-The following data sources, also publicly available, were used to create the other the friction surface that is referenced throughout.
+### Data Folder
+---
+The data folder in this repo stores .RDS objects that are referenced throughout the code:
 
--Elevation: [Copernicus](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3)
+-friction.RDS: friction surface, created in ArcGIS using the following publicly available data sources - [Copernicus Elevation](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3) [HOSM Roads](https://data.humdata.org/dataset/hotosm_cod_roads) [OSM Waterways](https://data.humdata.org/dataset/hotosm_cod_waterways)
 
--Roads: WFP and [HOSM](https://data.humdata.org/dataset/hotosm_cod_roads)
+-baselinett.RDS: baseline travel time to health facilities in Equateur, calculated in ArcGIS
 
--Waterways: [OSM](https://data.humdata.org/dataset/hotosm_cod_waterways)
+-baselinett_out.RDS: baseline travel time to health facilities outside of Equateur, calculated in ArcGIS
+
 
 ### Access vs Burden.R 
 ---
