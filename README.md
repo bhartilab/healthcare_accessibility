@@ -4,7 +4,7 @@ This code is associated with the analysis that aims to evaluate the accessibilit
 
 ### Publicly Available Data
 ---
-This project primarily uses publicly available data. 
+The data referenced throughout this code is publicly available for download. 
 
 -Health Facilities: [Grid3](https://data.grid3.org/datasets/GRID3::grid3-cod-health-facilities-v9-0/about)
 
@@ -12,6 +12,13 @@ This project primarily uses publicly available data.
 
 -Population Estimates: [Grid3](https://data.grid3.org/maps/a3db539c0fae4c05aed92ed67e11fe2b/explore)
 
+The following data sources, also publicly available, were used to create the other the friction surface that is referenced throughout.
+
+-Elevation: [Copernicus](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3)
+
+-Roads: WFP and [HOSM](https://data.humdata.org/dataset/hotosm_cod_roads)
+
+-Waterways: [OSM](https://data.humdata.org/dataset/hotosm_cod_waterways)
 
 ### Access vs Burden.R 
 ---
