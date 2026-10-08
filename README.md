@@ -10,7 +10,7 @@ The data referenced throughout this code is publicly available for download.
 
 -Health Zones: [Grid3](https://data.grid3.org/datasets/GRID3::grid3-cod-health-zones-v9-0/about)
 
--Population Estimates: [Grid3](https://data.grid3.org/maps/a3db539c0fae4c05aed92ed67e11fe2b/explore)
+-Population Estimates: [Grid3](https://data.grid3.org/maps/a3db539c0fae4c05aed92ed67e11fe2b/explore) [LandScan](https://landscan.ornl.gov/)
 
 ### Data Folder
 ---
@@ -66,7 +66,3 @@ This script contains the location allocation models, where facilities are placed
 ### MCLP Visuals.R
 ---
 Code needed to analyze the results of the location allocation models (calculate stats and make visualizations). 
-
-### Nighttime Lights.R
----
-Code used to examine radiance values from nighttime lights data. This was written for exploration, so the most useful bit of it is compiling the nighttime lights data for easy analysis. 
