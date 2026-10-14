@@ -85,9 +85,12 @@ graph <- cpp_simplify(graph)
 
 #Contract graph --
 #This function is the one that takes forever. Over a week!! And I didn't even
-#get it to successfully finish. I would try running as a background job first.
-#Or you could try chunking the contraction so you can have some checkpoints and relief
-#points for computer's memory. 
+#get it to successfully finish. I put in some time stamps here but 
+#if you can work in any more fail-safes, this is where to put it.
+#I mean, it should tell you why it failed anyway, I just ran into bad luck 
+#everytime I tried to run it. Code to have it auto restart would probably be nice. 
+#Or you could try reworking it all and chunking the contraction so you can have some checkpoints and relief
+#points for the computer's memory. 
 
 t1 <- Sys.time()
 message("Starting cpp_contract(): ", t1)
